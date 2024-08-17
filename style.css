@@ -39,7 +39,6 @@ body {
 
 .div-texto-section-conteudo {
   padding: 5%;
-  text-align: justify;
   font-style: oblique;
 }
 
@@ -50,7 +49,7 @@ h1{
 .p-conteudo{
   margin-bottom: 14px;
   margin-top: 14px;
-  font-weight: 200;
+  font-weight: 100;
 }
 
 /* Estilos para a imagem */
