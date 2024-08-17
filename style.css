@@ -17,13 +17,13 @@ body {
 
 /* Estilos para a seção de pré-venda */
 .section-pre-venda {
-  padding: 3%;
+  padding: 2%;
   background-color: #862b2a;
-  color: #fff; /* Adicionando cor do texto para contraste */
+  color: #0f0f0f; /* Adicionando cor do texto para contraste */
 }
 
 .paragrafo-pre-venda {
-  font-size: 28px;
+  font-size: 32px;
   font-weight: 800;
   text-transform: uppercase;
 }
@@ -44,6 +44,16 @@ body {
   font-style: oblique;
 }
 
+h1{
+  color: #862b2a;
+}
+
+.p-conteudo{
+  margin-bottom: 14px;
+  margin-top: 14px;
+  font-weight: 200;
+}
+
 /* Estilos para a imagem */
 img {
   max-width: 100%; /* Ajustando a imagem para diferentes tamanhos de tela */
@@ -52,7 +62,8 @@ img {
 
 /* Estilos para o botão */
 button {
-  background-color: #fff;
+  background-color: #862b2a;
+  color: #fff;
   border: none;
   padding: 8px;
   border-radius: 8px;
@@ -64,7 +75,7 @@ button {
 /* Estilos para o texto de aviso */
 .texto-aviso {
   text-align: center;
-  padding: 18px;
+  padding: 8px;
   text-decoration: underline;
   font-size: 24px;
   font-weight: bold;
@@ -76,19 +87,22 @@ button {
   background-color: #0f0f0f;
   color: #fff;
   text-align: center;
+  font-weight: 100;
 }
 
 /* Estilos para o parágrafo de instruções */
 .p-intruscoes {
   text-align: center;
   color: #0f0f0f;
-  padding: 18px;
+  padding: 8px;
 }
 
 /* Estilos para o rodapé */
 .footer-hells {
   background-color: #862b2a;
   text-align: center;
+  font-size: small;
+  font-weight: 100;
   color: #fff; /* Adicionando cor do texto para contraste */
 }
 
