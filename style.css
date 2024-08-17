@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  
+}
+
+body{
+   font-size: 100%;
+   background-color: #fff;
+}
+.paragrafo-pre-venda{
+  font-size: 28px;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+h1{
+  padding-bottom: 8px;
+}
+.p-conteudo{
+  padding-bottom: 18px;
+}
+
+button{
+  background-color: #862b2a;
+  width: auto;
+  height: auto;
+  border: none;
+  padding: 8px;
+  border-radius: 8px;
+  margin-bottom: 8px;
+  font-weight: bold;
+  cursor: pointer;  
+}
+
+.section-pre-venda{
+  padding: 3%;
+  background-color: #862b2a;
+}
+
+.section-conteudo{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #0f0f0f;
+  padding: 2%;
+
+}
+.div-texto-section-conteudo{
+   
+   padding: 5%;
+}
+.div-texto-section-conteudo{
+  text-align: justify;
+  padding: 8px;
+  font-style: oblique;
+  color: #fff;
+}
+img{
+  height: 600px;  
+}
+
+.texto-aviso {
+  text-align: center;
+  padding: 18px;
+  text-decoration: underline;
+  font-size: 24px;
+  font-weight: bold;
+  
+}
+
+.div-instrucoes{
+padding: 18px;
+background-color: #0f0f0f;
+color: #fff;
+text-align: center;
+}
+
+.p-intruscoes{
+  text-align: center;
+  color: #0f0f0f;
+  padding: 18px;
+  
+}
+
+.footer-hells{
+  background-color: #862b2a;
+  text-align: center;
+
+}
+
+@media (max-width: 750px){
+  .section-conteudo{
+    display: flex;
+    flex-direction: column;
+  }
+  img{
+    width: 100%;
+    height: 100%;
+  }
+}
