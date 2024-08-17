@@ -33,8 +33,7 @@ body {
   display: flex;
   flex-direction: row;
   align-items: center;
-  background-color: #0f0f0f;
-  padding: 2%;
+  background-color: #0f0f0f;  
   color: #fff; /* Adicionando cor do texto para contraste */
 }
 
