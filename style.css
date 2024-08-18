@@ -39,7 +39,7 @@ body {
 
 .div-texto-section-conteudo {
   padding: 5%;
-  font-style: oblique;
+  font-weight: 200;
 }
 
 h1{
@@ -73,7 +73,6 @@ button {
 /* Estilos para o texto de aviso */
 .texto-aviso {
   text-align: center;
-  padding: 8px;
   text-decoration: underline;
   font-size: 24px;
   font-weight: bold;
@@ -98,6 +97,7 @@ button {
 /* Estilos para o rodapé */
 .footer-hells {
   background-color: #862b2a;
+  padding: 8px;
   text-align: center;
   font-size: small;
   font-weight: 100;
